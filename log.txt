@@ -1,0 +1,91 @@
+[Info  - 10:52:35] (14624) Pylance language server 2022.3.4 (pyright 0d16617a) starting
+[Info  - 10:52:35] (14624) Server root directory: c:\Users\phancl01\.vscode\extensions\ms-python.vscode-pylance-2022.3.4\dist
+[Info  - 10:52:35] (14624) No configuration file found.
+[Info  - 10:52:35] (14624) No pyproject.toml file found.
+[Info  - 10:52:35] (14624) Setting pythonPath for service "Temp": "C:\Users\phancl01\AppData\Local\Programs\Python\Python310\python.exe"
+[Warn  - 10:52:35] (14624) stubPath c:\Temp\typings is not a valid directory.
+[Info  - 10:52:35] (14624) Assuming Python version 3.10
+[Info  - 10:52:35] (14624) Assuming Python platform Windows
+[Info  - 10:52:35] (14624) Search paths for c:\Temp
+[Info  - 10:52:35] (14624)   c:\Users\phancl01\.vscode\extensions\ms-python.vscode-pylance-2022.3.4\dist\typeshed-fallback\stdlib
+[Info  - 10:52:35] (14624)   c:\Temp
+[Info  - 10:52:35] (14624)   c:\Temp\typings
+[Info  - 10:52:35] (14624)   c:\Users\phancl01\.vscode\extensions\ms-python.vscode-pylance-2022.3.4\dist\typeshed-fallback\stubs\...
+[Info  - 10:52:35] (14624)   c:\Users\phancl01\.vscode\extensions\ms-python.vscode-pylance-2022.3.4\dist\bundled\stubs
+[Info  - 10:52:35] (14624)   c:\Users\phancl01\AppData\Local\Programs\Python\Python310\DLLs
+[Info  - 10:52:35] (14624)   c:\Users\phancl01\AppData\Local\Programs\Python\Python310\Lib
+[Info  - 10:52:35] (14624)   c:\Users\phancl01\AppData\Local\Programs\Python\Python310
+[Info  - 10:52:35] (14624)   c:\Users\phancl01\AppData\Local\Programs\Python\Python310\Lib\site-packages
+[Info  - 10:52:35] (14624) Adding fs watcher for library directories:
+ C:\Users\phancl01\AppData\Local\Programs\Python\Python310\DLLs
+C:\Users\phancl01\AppData\Local\Programs\Python\Python310\lib
+C:\Users\phancl01\AppData\Local\Programs\Python\Python310
+C:\Users\phancl01\AppData\Local\Programs\Python\Python310\lib\site-packages
+[Info  - 10:52:35] (14624) Adding fs watcher for directories:
+ c:\Temp
+[Info  - 10:52:35] (14624) Searching for source files
+[Info  - 10:52:35] (14624) Found 5 source files
+[Info  - 10:52:35] (14624) Background analysis(1) root directory: c:\Users\phancl01\.vscode\extensions\ms-python.vscode-pylance-2022.3.4\dist
+[Info  - 10:52:35] (14624) Background analysis(1) started
+(14624) Background analysis message: setConfigOptions
+(14624) Background analysis message: setImportResolver
+(14624) Background analysis message: ensurePartialStubPackages
+(14624) Background analysis message: setTrackedFiles
+(14624) Background analysis message: markAllFilesDirty
+(14624) Background analysis message: analyze
+(14624) [BG(1)] analyzing: c:\Temp\1300ms.py ...
+(14624) [BG(1)]   parsing: c:\Temp\1300ms.py [fs read 0ms] (18ms)
+(14624) [BG(1)]   parsing: c:\Users\phancl01\.vscode\extensions\ms-python.vscode-pylance-2022.3.4\dist\typeshed-fallback\stdlib\builtins.pyi [fs read 3ms] (69ms)
+(14624) [BG(1)]   binding: c:\Users\phancl01\.vscode\extensions\ms-python.vscode-pylance-2022.3.4\dist\typeshed-fallback\stdlib\builtins.pyi (23ms)
+(14624) [BG(1)]   binding: c:\Temp\1300ms.py (1ms)
+(14624) [BG(1)]   checking: c:\Temp\1300ms.py ...
+(14624) [BG(1)]     parsing: c:\Users\phancl01\.vscode\extensions\ms-python.vscode-pylance-2022.3.4\dist\typeshed-fallback\stdlib\typing_extensions.pyi [fs read 1ms] (6ms)
+(14624) [BG(1)]     binding: c:\Users\phancl01\.vscode\extensions\ms-python.vscode-pylance-2022.3.4\dist\typeshed-fallback\stdlib\typing_extensions.pyi (1ms)
+(14624) [BG(1)]     parsing: c:\Users\phancl01\.vscode\extensions\ms-python.vscode-pylance-2022.3.4\dist\typeshed-fallback\stdlib\typing.pyi [fs read 0ms] (15ms)
+(14624) [BG(1)]     binding: c:\Users\phancl01\.vscode\extensions\ms-python.vscode-pylance-2022.3.4\dist\typeshed-fallback\stdlib\typing.pyi (6ms)
+(14624) [BG(1)]     parsing: c:\Users\phancl01\.vscode\extensions\ms-python.vscode-pylance-2022.3.4\dist\typeshed-fallback\stdlib\_typeshed\__init__.pyi [fs read 0ms] (6ms)
+(14624) [BG(1)]     binding: c:\Users\phancl01\.vscode\extensions\ms-python.vscode-pylance-2022.3.4\dist\typeshed-fallback\stdlib\_typeshed\__init__.pyi (1ms)
+(14624) [BG(1)]     parsing: c:\Users\phancl01\.vscode\extensions\ms-python.vscode-pylance-2022.3.4\dist\typeshed-fallback\stdlib\types.pyi [fs read 0ms] (8ms)
+(14624) [BG(1)]     binding: c:\Users\phancl01\.vscode\extensions\ms-python.vscode-pylance-2022.3.4\dist\typeshed-fallback\stdlib\types.pyi (3ms)
+(14624) [BG(1)]     parsing: c:\Users\phancl01\.vscode\extensions\ms-python.vscode-pylance-2022.3.4\dist\typeshed-fallback\stdlib\abc.pyi [fs read 0ms] (1ms)
+(14624) [BG(1)]     binding: c:\Users\phancl01\.vscode\extensions\ms-python.vscode-pylance-2022.3.4\dist\typeshed-fallback\stdlib\abc.pyi (0ms)
+(14624) [BG(1)]     parsing: c:\Users\phancl01\.vscode\extensions\ms-python.vscode-pylance-2022.3.4\dist\typeshed-fallback\stdlib\math.pyi [fs read 0ms] (1ms)
+(14624) [BG(1)]     binding: c:\Users\phancl01\.vscode\extensions\ms-python.vscode-pylance-2022.3.4\dist\typeshed-fallback\stdlib\math.pyi (1ms)
+(14624) [BG(1)]     parsing: c:\Users\phancl01\.vscode\extensions\ms-python.vscode-pylance-2022.3.4\dist\typeshed-fallback\stdlib\collections\abc.pyi [fs read 0ms] (0ms)
+(14624) [BG(1)]     binding: c:\Users\phancl01\.vscode\extensions\ms-python.vscode-pylance-2022.3.4\dist\typeshed-fallback\stdlib\collections\abc.pyi ...
+(14624) [BG(1)]       parsing: c:\Users\phancl01\.vscode\extensions\ms-python.vscode-pylance-2022.3.4\dist\typeshed-fallback\stdlib\_collections_abc.pyi [fs read 1ms] (1ms)
+(14624) [BG(1)]       binding: c:\Users\phancl01\.vscode\extensions\ms-python.vscode-pylance-2022.3.4\dist\typeshed-fallback\stdlib\_collections_abc.pyi (1ms)
+(14624) [BG(1)]     binding: c:\Users\phancl01\.vscode\extensions\ms-python.vscode-pylance-2022.3.4\dist\typeshed-fallback\stdlib\collections\abc.pyi (2ms)
+(14624) [BG(1)]   checking: c:\Temp\1300ms.py (221ms)
+(14624) [BG(1)] analyzing: c:\Temp\1300ms.py (335ms)
+(14624) Background analysis message: resumeAnalysis
+(14624) [BG(1)] analyzing: c:\Temp\3ms.py ...
+(14624) [BG(1)]   parsing: c:\Temp\3ms.py [fs read 1ms] (2ms)
+(14624) [BG(1)]   binding: c:\Temp\3ms.py (1ms)
+(14624) [BG(1)]   checking: c:\Temp\3ms.py (11ms)
+(14624) [BG(1)] analyzing: c:\Temp\3ms.py (14ms)
+(14624) [BG(1)] analyzing: c:\Temp\4000ms.py ...
+(14624) [BG(1)]   parsing: c:\Temp\4000ms.py [fs read 0ms] (1ms)
+(14624) [BG(1)]   binding: c:\Temp\4000ms.py (0ms)
+(14624) [BG(1)]   checking: c:\Temp\4000ms.py (3703ms)
+[Info  - 10:52:40] (14624) [BG(1)] Long operation: checking: c:\Temp\4000ms.py (3703ms)
+(14624) [BG(1)] analyzing: c:\Temp\4000ms.py (3704ms)
+[Info  - 10:52:40] (14624) [BG(1)] Long operation: analyzing: c:\Temp\4000ms.py (3704ms)
+(14624) Background analysis message: resumeAnalysis
+(14624) [BG(1)] analyzing: c:\Temp\4700ms.py ...
+(14624) [BG(1)]   parsing: c:\Temp\4700ms.py [fs read 0ms] (1ms)
+(14624) [BG(1)]   binding: c:\Temp\4700ms.py (1ms)
+(14624) [BG(1)]   checking: c:\Temp\4700ms.py (4415ms)
+[Info  - 10:52:44] (14624) [BG(1)] Long operation: checking: c:\Temp\4700ms.py (4415ms)
+(14624) [BG(1)] analyzing: c:\Temp\4700ms.py (4417ms)
+[Info  - 10:52:44] (14624) [BG(1)] Long operation: analyzing: c:\Temp\4700ms.py (4417ms)
+(14624) Background analysis message: resumeAnalysis
+(14624) [BG(1)] analyzing: c:\Temp\8000ms.py ...
+(14624) [BG(1)]   parsing: c:\Temp\8000ms.py [fs read 0ms] (1ms)
+(14624) [BG(1)]   binding: c:\Temp\8000ms.py (0ms)
+(14624) [BG(1)]   checking: c:\Temp\8000ms.py (6697ms)
+[Info  - 10:52:51] (14624) [BG(1)] Long operation: checking: c:\Temp\8000ms.py (6697ms)
+(14624) [BG(1)] analyzing: c:\Temp\8000ms.py (6698ms)
+[Info  - 10:52:51] (14624) [BG(1)] Long operation: analyzing: c:\Temp\8000ms.py (6698ms)
+(14624) Background analysis message: resumeAnalysis
+[Info  - 10:53:05] (14624) SourceFile: Received fs event 'add' for path 'c:\Temp\log.txt'
