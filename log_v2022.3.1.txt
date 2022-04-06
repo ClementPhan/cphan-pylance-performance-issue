@@ -1,0 +1,95 @@
+[Info  - 11:26:30] (11132) Pylance language server 2022.3.1 (pyright bd47ac0b) starting
+[Info  - 11:26:30] (11132) Server root directory: c:\Users\phancl01\.vscode\extensions\ms-python.vscode-pylance-2022.3.1\dist
+[Info  - 11:26:30] (11132) No configuration file found.
+[Info  - 11:26:30] (11132) No pyproject.toml file found.
+[Info  - 11:26:30] (11132) Setting pythonPath for service "cphan-pylance-performance-issue": "C:\Users\phancl01\AppData\Local\Programs\Python\Python310\python.exe"
+[Warn  - 11:26:30] (11132) stubPath c:\Temp\cphan-pylance-performance-issue\typings is not a valid directory.
+[Info  - 11:26:30] (11132) Assuming Python version 3.10
+[Info  - 11:26:30] (11132) Assuming Python platform Windows
+[Info  - 11:26:30] (11132) Search paths for c:\Temp\cphan-pylance-performance-issue
+[Info  - 11:26:30] (11132)   c:\Users\phancl01\.vscode\extensions\ms-python.vscode-pylance-2022.3.1\dist\typeshed-fallback\stdlib
+[Info  - 11:26:30] (11132)   c:\Temp\cphan-pylance-performance-issue
+[Info  - 11:26:30] (11132)   c:\Temp\cphan-pylance-performance-issue\typings
+[Info  - 11:26:30] (11132)   c:\Users\phancl01\.vscode\extensions\ms-python.vscode-pylance-2022.3.1\dist\typeshed-fallback\stubs\...
+[Info  - 11:26:30] (11132)   c:\Users\phancl01\.vscode\extensions\ms-python.vscode-pylance-2022.3.1\dist\bundled\stubs
+[Info  - 11:26:30] (11132)   c:\Users\phancl01\AppData\Local\Programs\Python\Python310\DLLs
+[Info  - 11:26:30] (11132)   c:\Users\phancl01\AppData\Local\Programs\Python\Python310\Lib
+[Info  - 11:26:30] (11132)   c:\Users\phancl01\AppData\Local\Programs\Python\Python310
+[Info  - 11:26:30] (11132)   c:\Users\phancl01\AppData\Local\Programs\Python\Python310\Lib\site-packages
+[Info  - 11:26:30] (11132) Adding fs watcher for library directories:
+ C:\Users\phancl01\AppData\Local\Programs\Python\Python310\DLLs
+C:\Users\phancl01\AppData\Local\Programs\Python\Python310\lib
+C:\Users\phancl01\AppData\Local\Programs\Python\Python310
+C:\Users\phancl01\AppData\Local\Programs\Python\Python310\lib\site-packages
+[Info  - 11:26:30] (11132) Adding fs watcher for directories:
+ c:\Temp\cphan-pylance-performance-issue
+[Info  - 11:26:30] (11132) Searching for source files
+[Info  - 11:26:30] (11132) Found 5 source files
+(11132) [IDX(FG)] index libraries c:\Temp\cphan-pylance-performance-issue (index) ...
+(11132) [IDX(FG)]   read stdlib indices (35ms)
+(11132) [IDX(FG)] index libraries c:\Temp\cphan-pylance-performance-issue (index) [succeed] (36ms)
+(11132) [FG] parsing: c:\Temp\cphan-pylance-performance-issue\3ms.py (23ms)
+(11132) [FG] parsing: c:\Users\phancl01\.vscode\extensions\ms-python.vscode-pylance-2022.3.1\dist\typeshed-fallback\stdlib\builtins.pyi [fs read 8ms] (71ms)
+(11132) [FG] binding: c:\Users\phancl01\.vscode\extensions\ms-python.vscode-pylance-2022.3.1\dist\typeshed-fallback\stdlib\builtins.pyi (29ms)
+(11132) [FG] binding: c:\Temp\cphan-pylance-performance-issue\3ms.py (1ms)
+[Info  - 11:26:30] (11132) Background analysis(1) root directory: c:\Users\phancl01\.vscode\extensions\ms-python.vscode-pylance-2022.3.1\dist
+[Info  - 11:26:30] (11132) Background analysis(1) started
+(11132) Background analysis message: setConfigOptions
+(11132) Background analysis message: setImportResolver
+(11132) Background analysis message: ensurePartialStubPackages
+(11132) Background analysis message: setTrackedFiles
+(11132) Background analysis message: markAllFilesDirty
+(11132) Background analysis message: setFileOpened
+(11132) Background analysis message: getSemanticTokens full
+(11132) [BG(1)] getSemanticTokens full at c:\Temp\cphan-pylance-performance-issue\3ms.py ...
+(11132) [BG(1)]   parsing: c:\Temp\cphan-pylance-performance-issue\3ms.py (19ms)
+(11132) [BG(1)]   parsing: c:\Users\phancl01\.vscode\extensions\ms-python.vscode-pylance-2022.3.1\dist\typeshed-fallback\stdlib\builtins.pyi [fs read 2ms] (56ms)
+(11132) [BG(1)]   binding: c:\Users\phancl01\.vscode\extensions\ms-python.vscode-pylance-2022.3.1\dist\typeshed-fallback\stdlib\builtins.pyi (21ms)
+(11132) [BG(1)]   binding: c:\Temp\cphan-pylance-performance-issue\3ms.py (2ms)
+(11132) [BG(1)]   parsing: c:\Users\phancl01\.vscode\extensions\ms-python.vscode-pylance-2022.3.1\dist\typeshed-fallback\stdlib\typing_extensions.pyi [fs read 2ms] (8ms)
+(11132) [BG(1)]   binding: c:\Users\phancl01\.vscode\extensions\ms-python.vscode-pylance-2022.3.1\dist\typeshed-fallback\stdlib\typing_extensions.pyi (2ms)
+(11132) [BG(1)]   parsing: c:\Users\phancl01\.vscode\extensions\ms-python.vscode-pylance-2022.3.1\dist\typeshed-fallback\stdlib\typing.pyi [fs read 4ms] (17ms)
+(11132) [BG(1)]   binding: c:\Users\phancl01\.vscode\extensions\ms-python.vscode-pylance-2022.3.1\dist\typeshed-fallback\stdlib\typing.pyi (6ms)
+(11132) [BG(1)]   parsing: c:\Users\phancl01\.vscode\extensions\ms-python.vscode-pylance-2022.3.1\dist\typeshed-fallback\stdlib\_typeshed\__init__.pyi [fs read 1ms] (6ms)
+(11132) [BG(1)]   binding: c:\Users\phancl01\.vscode\extensions\ms-python.vscode-pylance-2022.3.1\dist\typeshed-fallback\stdlib\_typeshed\__init__.pyi (1ms)
+(11132) [BG(1)]   parsing: c:\Users\phancl01\.vscode\extensions\ms-python.vscode-pylance-2022.3.1\dist\typeshed-fallback\stdlib\types.pyi [fs read 6ms] (13ms)
+(11132) [BG(1)]   binding: c:\Users\phancl01\.vscode\extensions\ms-python.vscode-pylance-2022.3.1\dist\typeshed-fallback\stdlib\types.pyi (2ms)
+(11132) [BG(1)]   parsing: c:\Users\phancl01\.vscode\extensions\ms-python.vscode-pylance-2022.3.1\dist\typeshed-fallback\stdlib\abc.pyi [fs read 0ms] (1ms)
+(11132) [BG(1)]   binding: c:\Users\phancl01\.vscode\extensions\ms-python.vscode-pylance-2022.3.1\dist\typeshed-fallback\stdlib\abc.pyi (0ms)
+(11132) [BG(1)]   parsing: c:\Users\phancl01\.vscode\extensions\ms-python.vscode-pylance-2022.3.1\dist\typeshed-fallback\stdlib\math.pyi [fs read 1ms] (4ms)
+(11132) [BG(1)]   binding: c:\Users\phancl01\.vscode\extensions\ms-python.vscode-pylance-2022.3.1\dist\typeshed-fallback\stdlib\math.pyi (1ms)
+(11132) [BG(1)] getSemanticTokens full at c:\Temp\cphan-pylance-performance-issue\3ms.py (208ms)
+(11132) Background analysis message: getSemanticTokens range
+(11132) [BG(1)] getSemanticTokens range 0:0 - 33:0 at c:\Temp\cphan-pylance-performance-issue\3ms.py (3ms)
+(11132) Background analysis message: analyze
+(11132) [BG(1)] analyzing: c:\Temp\cphan-pylance-performance-issue\3ms.py ...
+(11132) [BG(1)]   checking: c:\Temp\cphan-pylance-performance-issue\3ms.py ...
+(11132) [BG(1)]     parsing: c:\Users\phancl01\.vscode\extensions\ms-python.vscode-pylance-2022.3.1\dist\typeshed-fallback\stdlib\collections\abc.pyi [fs read 1ms] (1ms)
+(11132) [BG(1)]     binding: c:\Users\phancl01\.vscode\extensions\ms-python.vscode-pylance-2022.3.1\dist\typeshed-fallback\stdlib\collections\abc.pyi ...
+(11132) [BG(1)]       parsing: c:\Users\phancl01\.vscode\extensions\ms-python.vscode-pylance-2022.3.1\dist\typeshed-fallback\stdlib\_collections_abc.pyi [fs read 0ms] (1ms)
+(11132) [BG(1)]       binding: c:\Users\phancl01\.vscode\extensions\ms-python.vscode-pylance-2022.3.1\dist\typeshed-fallback\stdlib\_collections_abc.pyi (1ms)
+(11132) [BG(1)]     binding: c:\Users\phancl01\.vscode\extensions\ms-python.vscode-pylance-2022.3.1\dist\typeshed-fallback\stdlib\collections\abc.pyi (2ms)
+(11132) [BG(1)]   checking: c:\Temp\cphan-pylance-performance-issue\3ms.py (37ms)
+(11132) [BG(1)] analyzing: c:\Temp\cphan-pylance-performance-issue\3ms.py (37ms)
+(11132) Background analysis message: resumeAnalysis
+(11132) [BG(1)] analyzing: c:\Temp\cphan-pylance-performance-issue\1300ms.py ...
+(11132) [BG(1)]   parsing: c:\Temp\cphan-pylance-performance-issue\1300ms.py [fs read 0ms] (1ms)
+(11132) [BG(1)]   binding: c:\Temp\cphan-pylance-performance-issue\1300ms.py (0ms)
+(11132) [BG(1)]   checking: c:\Temp\cphan-pylance-performance-issue\1300ms.py (27ms)
+(11132) [BG(1)] analyzing: c:\Temp\cphan-pylance-performance-issue\1300ms.py (28ms)
+(11132) [BG(1)] analyzing: c:\Temp\cphan-pylance-performance-issue\4000ms.py ...
+(11132) [BG(1)]   parsing: c:\Temp\cphan-pylance-performance-issue\4000ms.py [fs read 0ms] (1ms)
+(11132) [BG(1)]   binding: c:\Temp\cphan-pylance-performance-issue\4000ms.py (0ms)
+(11132) [BG(1)]   checking: c:\Temp\cphan-pylance-performance-issue\4000ms.py (80ms)
+(11132) [BG(1)] analyzing: c:\Temp\cphan-pylance-performance-issue\4000ms.py (81ms)
+(11132) [BG(1)] analyzing: c:\Temp\cphan-pylance-performance-issue\4700ms.py ...
+(11132) [BG(1)]   parsing: c:\Temp\cphan-pylance-performance-issue\4700ms.py [fs read 1ms] (2ms)
+(11132) [BG(1)]   binding: c:\Temp\cphan-pylance-performance-issue\4700ms.py (1ms)
+(11132) [BG(1)]   checking: c:\Temp\cphan-pylance-performance-issue\4700ms.py (67ms)
+(11132) [BG(1)] analyzing: c:\Temp\cphan-pylance-performance-issue\4700ms.py (70ms)
+(11132) [BG(1)] analyzing: c:\Temp\cphan-pylance-performance-issue\8000ms.py ...
+(11132) [BG(1)]   parsing: c:\Temp\cphan-pylance-performance-issue\8000ms.py [fs read 0ms] (1ms)
+(11132) [BG(1)]   binding: c:\Temp\cphan-pylance-performance-issue\8000ms.py (0ms)
+(11132) [BG(1)]   checking: c:\Temp\cphan-pylance-performance-issue\8000ms.py (49ms)
+(11132) [BG(1)] analyzing: c:\Temp\cphan-pylance-performance-issue\8000ms.py (50ms)
+(11132) Background analysis message: resumeAnalysis
